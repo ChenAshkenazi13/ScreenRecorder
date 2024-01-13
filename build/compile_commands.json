@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder",
+  "command": "/usr/bin/g++  -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src -g -Wall -std=gnu++14 -o CMakeFiles/Recorder.dir/recorder.cpp.o -c /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.cpp",
+  "file": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.cpp"
+},
+{
+  "directory": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/client",
+  "command": "/usr/bin/g++  -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src -g -Wall -std=gnu++14 -o CMakeFiles/Client.dir/client.cpp.o -c /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client/client.cpp",
+  "file": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client/client.cpp"
+},
+{
+  "directory": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/main",
+  "command": "/usr/bin/g++  -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src -g -Wall -std=gnu++14 -o CMakeFiles/ScreenRecorder.dir/main.cpp.o -c /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/main/main.cpp",
+  "file": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/main/main.cpp"
+}
+]

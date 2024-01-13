@@ -1,0 +1,13 @@
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles/edit_cache.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles/rebuild_cache.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/CMakeFiles/edit_cache.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/CMakeFiles/rebuild_cache.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder/CMakeFiles/Recorder.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder/CMakeFiles/edit_cache.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder/CMakeFiles/rebuild_cache.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/client/CMakeFiles/Client.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/client/CMakeFiles/edit_cache.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/client/CMakeFiles/rebuild_cache.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/main/CMakeFiles/ScreenRecorder.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/main/CMakeFiles/edit_cache.dir
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/main/CMakeFiles/rebuild_cache.dir
