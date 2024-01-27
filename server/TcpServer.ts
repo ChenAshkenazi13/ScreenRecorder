@@ -8,26 +8,28 @@ const server = net.createServer((socket) => {
     console.log('Client connected');
 
     // Create a unique file name
-    const fileName = `upload_${Date.now()}.mp4`;
+    const fileName = `upload_Test2.mp4`;
     const filePath = path.join(__dirname, fileName);
     const fileStream = fs.createWriteStream(filePath);
 
     socket.on('data', (data) => {
-        console.log('Receiving data...');
+        console.log(`Receiving data...${data}`);
         fileStream.write(data);
     });
-
+    
     socket.on('end', () => {
         fileStream.end();
         console.log('File received and saved as', fileName);
     });
-
+    
     socket.on('error', (err) => {
         console.error('Socket error:', err);
-        fileStream.close();
+        // fileStream.close();
     });
 });
 
 server.listen(port, () => {
   console.log(`TCP server listening on port ${port}`);
 });
+
+//TODO: Handle server crushing

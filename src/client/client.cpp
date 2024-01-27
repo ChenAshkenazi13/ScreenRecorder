@@ -18,30 +18,34 @@ void Client::ConnectToServer()
 {
 	if (connect(sock, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0)
 	{
-		std::cerr << "Connect failed" << std::endl;
-		exit(1);
+		std::perror("Connect failed\n");
+		//exit(1);
 	}
 }
 
-void Client::SendFile(const std::string &filePath)
-{
-	std::ifstream file(filePath, std::ios::binary);
-	if (!file.is_open())
-	{
-		std::cerr << "Failed to open file" << std::endl;
-		return;
-	}
+void Client::SendFile(const std::string& fileName) {
+    std::ifstream file(fileName, std::ios::binary);
+    if (!file.is_open()) {
+        std::cerr << "Failed to open file: " << fileName << std::endl;
+        return;
+    }
 
-	char buffer[1024];
-	while (file.read(buffer, sizeof(buffer)))
-	{
-		if (send(sock, buffer, file.gcount(), 0) < 0)
-		{
-			std::cerr << "Send failed" << std::endl;
-			break;
-		}
-	}
-	file.close();
+    const size_t bufferSize = 1024;
+    char buffer[bufferSize];
+
+    while (!file.eof()) {
+        file.read(buffer, bufferSize);
+        std::streamsize bytes = file.gcount();
+        if (bytes > 0) {
+            ssize_t sent = send(sock, buffer, bytes, 0);
+            if (sent == -1) {
+                std::cerr << "Failed to send file chunk." << std::endl;
+                break;
+            }
+        }
+    }
+
+    file.close();
 }
 
 void Client::SendMessage(const std::string &message)

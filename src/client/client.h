@@ -19,7 +19,7 @@ public:
 private:
     int sock;
     struct sockaddr_in server_addr;
-
+    std::string clientName;
 };
 
-#endif // !CLIENT
+#endif

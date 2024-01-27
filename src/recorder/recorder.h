@@ -5,14 +5,14 @@
 class Recorder{
     public: 
         void RecordScreen();
-        std::string outputDirectoryPath = " ../../../../Records/";
+        std::string outputDirectoryPath = "../../../../Records/";
+        std::string outputFileName = "output4";
+        std::string outputFileFormat = ".mp4";
     private:
         int recordTime = 10;
-        std::string outputFileName = "output";
-        std::string outputFileFormat = ".mp4";
         
-        const std::string recordScreenCommand = "ffmpeg -f x11grab -video_size 1920x1080 -framerate 25 -i :0.0 -t " + std::to_string(recordTime) + outputDirectoryPath 
-                + outputFileName + outputFileFormat;
+        const std::string recordScreenCommand = "ffmpeg -f x11grab -video_size 1920x1080 -framerate 25 -i :0.0 -t " + std::to_string(recordTime) + " " 
+                + outputDirectoryPath + outputFileName + outputFileFormat;
 
 };
 

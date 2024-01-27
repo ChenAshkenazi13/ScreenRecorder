@@ -6,13 +6,12 @@ int main()
 {
     Recorder recorder{};
 
-    recorder.RecordScreen();    
     Client client{"127.0.0.1", 3000};
     
-    // Client client{"127.0.0.1", 11012};
     client.ConnectToServer();
-    client.SendFile("/home/chen/Documents/ProgrammingProjects/Records/output.mp4");
+
+    recorder.RecordScreen();    
+    client.SendFile(recorder.outputDirectoryPath + recorder.outputFileName + recorder.outputFileFormat);
 
     getchar();
-    // std::cout << "Hello noder!";
 }
