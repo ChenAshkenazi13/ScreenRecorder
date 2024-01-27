@@ -80,18 +80,21 @@ clean: src/clean
 # Recursive "all" directory target.
 src/all: src/recorder/all
 src/all: src/client/all
+src/all: src/objects/all
 src/all: src/main/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
 src/preinstall: src/recorder/preinstall
 src/preinstall: src/client/preinstall
+src/preinstall: src/objects/preinstall
 src/preinstall: src/main/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
 src/clean: src/recorder/clean
 src/clean: src/client/clean
+src/clean: src/objects/clean
 src/clean: src/main/clean
 .PHONY : src/clean
 
@@ -126,6 +129,21 @@ src/main/clean: src/main/CMakeFiles/ScreenRecorder.dir/clean
 .PHONY : src/main/clean
 
 #=============================================================================
+# Directory level rules for directory src/objects
+
+# Recursive "all" directory target.
+src/objects/all: src/objects/CMakeFiles/Objects.dir/all
+.PHONY : src/objects/all
+
+# Recursive "preinstall" directory target.
+src/objects/preinstall:
+.PHONY : src/objects/preinstall
+
+# Recursive "clean" directory target.
+src/objects/clean: src/objects/CMakeFiles/Objects.dir/clean
+.PHONY : src/objects/clean
+
+#=============================================================================
 # Directory level rules for directory src/recorder
 
 # Recursive "all" directory target.
@@ -147,7 +165,7 @@ src/recorder/clean: src/recorder/CMakeFiles/Recorder.dir/clean
 src/recorder/CMakeFiles/Recorder.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/recorder/CMakeFiles/Recorder.dir/build.make src/recorder/CMakeFiles/Recorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/recorder/CMakeFiles/Recorder.dir/build.make src/recorder/CMakeFiles/Recorder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=3,4 "Built target Recorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=6,7 "Built target Recorder"
 .PHONY : src/recorder/CMakeFiles/Recorder.dir/all
 
 # Build rule for subdir invocation for target.
@@ -193,19 +211,46 @@ src/client/CMakeFiles/Client.dir/clean:
 .PHONY : src/client/CMakeFiles/Client.dir/clean
 
 #=============================================================================
+# Target rules for target src/objects/CMakeFiles/Objects.dir
+
+# All Build rule for target.
+src/objects/CMakeFiles/Objects.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=3,4,5 "Built target Objects"
+.PHONY : src/objects/CMakeFiles/Objects.dir/all
+
+# Build rule for subdir invocation for target.
+src/objects/CMakeFiles/Objects.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/objects/CMakeFiles/Objects.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 0
+.PHONY : src/objects/CMakeFiles/Objects.dir/rule
+
+# Convenience name for target.
+Objects: src/objects/CMakeFiles/Objects.dir/rule
+.PHONY : Objects
+
+# clean rule for target.
+src/objects/CMakeFiles/Objects.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/clean
+.PHONY : src/objects/CMakeFiles/Objects.dir/clean
+
+#=============================================================================
 # Target rules for target src/main/CMakeFiles/ScreenRecorder.dir
 
 # All Build rule for target.
 src/main/CMakeFiles/ScreenRecorder.dir/all: src/recorder/CMakeFiles/Recorder.dir/all
 src/main/CMakeFiles/ScreenRecorder.dir/all: src/client/CMakeFiles/Client.dir/all
+src/main/CMakeFiles/ScreenRecorder.dir/all: src/objects/CMakeFiles/Objects.dir/all
 	$(MAKE) $(MAKESILENT) -f src/main/CMakeFiles/ScreenRecorder.dir/build.make src/main/CMakeFiles/ScreenRecorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/main/CMakeFiles/ScreenRecorder.dir/build.make src/main/CMakeFiles/ScreenRecorder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=5,6 "Built target ScreenRecorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=8,9 "Built target ScreenRecorder"
 .PHONY : src/main/CMakeFiles/ScreenRecorder.dir/all
 
 # Build rule for subdir invocation for target.
 src/main/CMakeFiles/ScreenRecorder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/main/CMakeFiles/ScreenRecorder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 0
 .PHONY : src/main/CMakeFiles/ScreenRecorder.dir/rule

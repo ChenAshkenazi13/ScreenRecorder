@@ -179,4 +179,19 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h /usr/include/c++/12/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.h
+ /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.h \
+ /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.h \
+ /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.h \
+ /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.h \
+ /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/circularList.h \
+ /usr/include/c++/12/list /usr/include/c++/12/bits/stl_list.h \
+ /usr/include/c++/12/bits/allocated_ptr.h \
+ /usr/include/c++/12/ext/aligned_buffer.h \
+ /usr/include/c++/12/bits/list.tcc /usr/include/c++/12/iterator \
+ /usr/include/c++/12/bits/stream_iterator.h /usr/include/c++/12/mutex \
+ /usr/include/c++/12/tuple /usr/include/c++/12/bits/uses_allocator.h \
+ /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
+ /usr/include/c++/12/limits /usr/include/c++/12/ctime \
+ /usr/include/c++/12/bits/parse_numbers.h \
+ /usr/include/c++/12/bits/std_mutex.h \
+ /usr/include/c++/12/bits/unique_lock.h

@@ -219,8 +219,49 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
   /usr/include/c++/12/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.h
+  /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.h \
+  /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.h \
+  /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.h \
+  /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.h \
+  /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/circularList.h \
+  /usr/include/c++/12/list \
+  /usr/include/c++/12/bits/stl_list.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/bits/list.tcc \
+  /usr/include/c++/12/iterator \
+  /usr/include/c++/12/bits/stream_iterator.h \
+  /usr/include/c++/12/mutex \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/chrono.h \
+  /usr/include/c++/12/ratio \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/ctime \
+  /usr/include/c++/12/bits/parse_numbers.h \
+  /usr/include/c++/12/bits/std_mutex.h \
+  /usr/include/c++/12/bits/unique_lock.h
 
+
+/usr/include/c++/12/bits/unique_lock.h:
+
+/usr/include/c++/12/bits/std_mutex.h:
+
+/usr/include/c++/12/limits:
+
+/usr/include/c++/12/bits/chrono.h:
+
+/usr/include/c++/12/bits/stream_iterator.h:
+
+/usr/include/c++/12/bits/list.tcc:
+
+/usr/include/c++/12/ext/aligned_buffer.h:
+
+/usr/include/c++/12/bits/allocated_ptr.h:
+
+/usr/include/c++/12/list:
+
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.h:
 
 /usr/include/string.h:
 
@@ -266,17 +307,23 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
 
 /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client/client.h:
 
+/usr/include/c++/12/ctime:
+
 /usr/include/c++/12/bits/basic_ios.tcc:
 
 /usr/include/c++/12/bits/streambuf_iterator.h:
 
 /usr/include/c++/12/cwctype:
 
+/usr/include/c++/12/tuple:
+
 /usr/include/c++/12/bits/ostream.tcc:
 
 /usr/include/c++/12/bits/locale_facets.h:
 
 /usr/include/c++/12/bits/basic_ios.h:
+
+/usr/include/c++/12/bits/parse_numbers.h:
 
 /usr/include/c++/12/bits/streambuf.tcc:
 
@@ -293,6 +340,8 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/asm-generic/errno.h:
+
+/usr/include/c++/12/bits/stl_list.h:
 
 /usr/include/wctype.h:
 
@@ -331,6 +380,8 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/c++/12/cstdlib:
+
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/circularList.h:
 
 /usr/include/c++/12/ext/string_conversions.h:
 
@@ -424,6 +475,8 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
+/usr/include/c++/12/mutex:
+
 /usr/include/c++/12/new:
 
 /usr/include/c++/12/exception:
@@ -431,6 +484,8 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
 /usr/include/c++/12/bits/std_abs.h:
 
 /usr/include/c++/12/debug/assertions.h:
+
+/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -512,6 +567,8 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
+/usr/include/c++/12/iterator:
+
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
@@ -539,6 +596,8 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
 /usr/include/c++/12/iostream:
 
 /usr/include/sched.h:
+
+/usr/include/c++/12/ratio:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
@@ -627,6 +686,8 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
 /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/12/bits/uses_allocator.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_funcs.h:
 

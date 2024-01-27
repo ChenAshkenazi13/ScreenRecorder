@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <cstring>
 
-class Client {
+class Client { //TODO: Change name to TcpClient or TcpSender or Sender or PacketSender
 public:
     Client(const char* serverIP, int serverPort);
     ~Client();
@@ -19,7 +19,6 @@ public:
 private:
     int sock;
     struct sockaddr_in server_addr;
-    std::string clientName;
 };
 
 #endif

@@ -19,7 +19,7 @@ void Client::ConnectToServer()
 	if (connect(sock, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0)
 	{
 		std::perror("Connect failed\n");
-		//exit(1);
+		exit(1);
 	}
 }
 

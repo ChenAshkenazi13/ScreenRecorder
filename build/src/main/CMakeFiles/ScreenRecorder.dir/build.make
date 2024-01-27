@@ -94,6 +94,7 @@ src/main/ScreenRecorder: src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o
 src/main/ScreenRecorder: src/main/CMakeFiles/ScreenRecorder.dir/build.make
 src/main/ScreenRecorder: src/recorder/libRecorder.a
 src/main/ScreenRecorder: src/client/libClient.a
+src/main/ScreenRecorder: src/objects/libObjects.a
 src/main/ScreenRecorder: src/main/CMakeFiles/ScreenRecorder.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ScreenRecorder"
 	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ScreenRecorder.dir/link.txt --verbose=$(VERBOSE)

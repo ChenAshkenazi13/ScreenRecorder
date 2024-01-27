@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder/cmake_install.cmake")
   include("/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/client/cmake_install.cmake")
+  include("/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects/cmake_install.cmake")
   include("/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/main/cmake_install.cmake")
 
 endif()

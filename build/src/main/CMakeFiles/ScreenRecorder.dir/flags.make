@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src
+CXX_INCLUDES = -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects
 
 CXX_FLAGS = -g -Wall -std=gnu++14
 

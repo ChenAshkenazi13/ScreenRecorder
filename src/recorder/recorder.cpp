@@ -12,5 +12,4 @@ void Recorder::RecordScreen()
     }
 
     std::cout << "RECORDING SAVED" << "\n";
-
 }

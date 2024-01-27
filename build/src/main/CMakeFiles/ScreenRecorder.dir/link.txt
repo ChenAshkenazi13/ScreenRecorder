@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/ScreenRecorder.dir/main.cpp.o -o ScreenRecorder  ../recorder/libRecorder.a ../client/libClient.a 
+/usr/bin/g++ -g CMakeFiles/ScreenRecorder.dir/main.cpp.o -o ScreenRecorder  ../recorder/libRecorder.a ../client/libClient.a ../objects/libObjects.a 

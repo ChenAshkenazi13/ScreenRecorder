@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/CMakeLists.txt"
   "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client/CMakeLists.txt"
   "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/main/CMakeLists.txt"
+  "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/CMakeLists.txt"
   "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/CMakeLists.txt"
   "/usr/share/cmake-3.25/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
@@ -46,6 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/recorder/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/client/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/objects/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/main/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -53,5 +55,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "src/recorder/CMakeFiles/Recorder.dir/DependInfo.cmake"
   "src/client/CMakeFiles/Client.dir/DependInfo.cmake"
+  "src/objects/CMakeFiles/Objects.dir/DependInfo.cmake"
   "src/main/CMakeFiles/ScreenRecorder.dir/DependInfo.cmake"
   )

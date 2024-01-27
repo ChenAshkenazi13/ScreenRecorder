@@ -143,6 +143,19 @@ Client/fast:
 .PHONY : Client/fast
 
 #=============================================================================
+# Target rules for targets named Objects
+
+# Build rule for target.
+Objects: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Objects
+.PHONY : Objects
+
+# fast build rule for target.
+Objects/fast:
+	$(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/build
+.PHONY : Objects/fast
+
+#=============================================================================
 # Target rules for targets named ScreenRecorder
 
 # Build rule for target.
@@ -164,6 +177,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Client"
+	@echo "... Objects"
 	@echo "... Recorder"
 	@echo "... ScreenRecorder"
 .PHONY : help

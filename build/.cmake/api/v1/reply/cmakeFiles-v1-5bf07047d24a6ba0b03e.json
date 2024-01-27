@@ -131,6 +131,9 @@
 			"path" : "src/client/CMakeLists.txt"
 		},
 		{
+			"path" : "src/objects/CMakeLists.txt"
+		},
+		{
 			"path" : "src/main/CMakeLists.txt"
 		}
 	],

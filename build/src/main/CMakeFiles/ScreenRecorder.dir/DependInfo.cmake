@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder/CMakeFiles/Recorder.dir/DependInfo.cmake"
   "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/client/CMakeFiles/Client.dir/DependInfo.cmake"
+  "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects/CMakeFiles/Objects.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

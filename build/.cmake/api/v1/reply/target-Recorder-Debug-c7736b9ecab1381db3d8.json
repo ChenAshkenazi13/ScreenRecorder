@@ -18,7 +18,8 @@
 		"files" : 
 		[
 			"src/recorder/CMakeLists.txt",
-			"CMakeLists.txt"
+			"CMakeLists.txt",
+			"src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -45,6 +46,27 @@
 				"file" : 1,
 				"line" : 13,
 				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 5
 			}
 		]
 	},
@@ -69,6 +91,18 @@
 				{
 					"backtrace" : 4,
 					"path" : "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects"
 				}
 			],
 			"language" : "CXX",
