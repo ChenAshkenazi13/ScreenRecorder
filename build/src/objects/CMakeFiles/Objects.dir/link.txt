@@ -1,2 +1,2 @@
-/usr/bin/ar qc libObjects.a CMakeFiles/Objects.dir/fileStatus.cpp.o CMakeFiles/Objects.dir/circularList.cpp.o
+/usr/bin/ar qc libObjects.a CMakeFiles/Objects.dir/circularList.cpp.o
 /usr/bin/ranlib libObjects.a

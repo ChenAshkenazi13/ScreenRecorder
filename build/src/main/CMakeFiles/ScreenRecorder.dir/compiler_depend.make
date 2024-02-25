@@ -222,7 +222,6 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
   /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.h \
   /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.h \
   /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.h \
-  /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.h \
   /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/circularList.h \
   /usr/include/c++/12/list \
   /usr/include/c++/12/bits/stl_list.h \
@@ -240,7 +239,8 @@ src/main/CMakeFiles/ScreenRecorder.dir/main.cpp.o: /home/chen/Documents/Programm
   /usr/include/c++/12/ctime \
   /usr/include/c++/12/bits/parse_numbers.h \
   /usr/include/c++/12/bits/std_mutex.h \
-  /usr/include/c++/12/bits/unique_lock.h
+  /usr/include/c++/12/bits/unique_lock.h \
+  /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.h
 
 
 /usr/include/c++/12/bits/unique_lock.h:

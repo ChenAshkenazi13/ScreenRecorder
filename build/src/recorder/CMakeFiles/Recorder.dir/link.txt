@@ -1,2 +1,2 @@
-/usr/bin/ar qc libRecorder.a CMakeFiles/Recorder.dir/recorder.cpp.o
+/usr/bin/ar qc libRecorder.a CMakeFiles/Recorder.dir/recorder.cpp.o CMakeFiles/Recorder.dir/recordController.cpp.o
 /usr/bin/ranlib libRecorder.a

@@ -1,1 +1,1 @@
-add_library(Objects STATIC fileStatus.cpp fileStatus.h circularList.cpp circularList.h)
+add_library(Objects STATIC fileStatus.h circularList.cpp circularList.h)

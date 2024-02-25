@@ -2,12 +2,16 @@
 #define RECORD_CONTROLLER
 
 #include "recorder.h"
+#include "circularList.h"
+#include "fileStatus.h"
 
 class RecordController
 {
 public:
     // RecordController();
-    void StartRecording();
+    // CircularList list;
+    // CircularList<FileData> list{};
+    void StartRecording(const CircularList<FileData> &list);
 
 private:
     // CircularList<FileData> recordsList;

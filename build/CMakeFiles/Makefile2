@@ -165,12 +165,12 @@ src/recorder/clean: src/recorder/CMakeFiles/Recorder.dir/clean
 src/recorder/CMakeFiles/Recorder.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/recorder/CMakeFiles/Recorder.dir/build.make src/recorder/CMakeFiles/Recorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/recorder/CMakeFiles/Recorder.dir/build.make src/recorder/CMakeFiles/Recorder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=6,7 "Built target Recorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=5,6,7 "Built target Recorder"
 .PHONY : src/recorder/CMakeFiles/Recorder.dir/all
 
 # Build rule for subdir invocation for target.
 src/recorder/CMakeFiles/Recorder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/recorder/CMakeFiles/Recorder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 0
 .PHONY : src/recorder/CMakeFiles/Recorder.dir/rule
@@ -217,12 +217,12 @@ src/client/CMakeFiles/Client.dir/clean:
 src/objects/CMakeFiles/Objects.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=3,4,5 "Built target Objects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=3,4 "Built target Objects"
 .PHONY : src/objects/CMakeFiles/Objects.dir/all
 
 # Build rule for subdir invocation for target.
 src/objects/CMakeFiles/Objects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/objects/CMakeFiles/Objects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles 0
 .PHONY : src/objects/CMakeFiles/Objects.dir/rule

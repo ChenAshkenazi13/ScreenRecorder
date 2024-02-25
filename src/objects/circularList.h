@@ -5,6 +5,9 @@
 #include <iterator>
 #include <mutex>
 
+/*TODO:Find a way to speate functions implemention to .cpp file 
+        while stil implementing template*/
+        
 template <typename T>
 class CircularList
 {

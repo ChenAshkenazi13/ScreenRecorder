@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.cpp" "src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.o" "gcc" "src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.o.d"
   "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.cpp" "src/recorder/CMakeFiles/Recorder.dir/recorder.cpp.o" "gcc" "src/recorder/CMakeFiles/Recorder.dir/recorder.cpp.o.d"
   )
 

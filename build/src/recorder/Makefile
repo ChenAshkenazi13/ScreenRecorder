@@ -130,6 +130,30 @@ Recorder/fast:
 	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build && $(MAKE) $(MAKESILENT) -f src/recorder/CMakeFiles/Recorder.dir/build.make src/recorder/CMakeFiles/Recorder.dir/build
 .PHONY : Recorder/fast
 
+recordController.o: recordController.cpp.o
+.PHONY : recordController.o
+
+# target to build an object file
+recordController.cpp.o:
+	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build && $(MAKE) $(MAKESILENT) -f src/recorder/CMakeFiles/Recorder.dir/build.make src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.o
+.PHONY : recordController.cpp.o
+
+recordController.i: recordController.cpp.i
+.PHONY : recordController.i
+
+# target to preprocess a source file
+recordController.cpp.i:
+	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build && $(MAKE) $(MAKESILENT) -f src/recorder/CMakeFiles/Recorder.dir/build.make src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.i
+.PHONY : recordController.cpp.i
+
+recordController.s: recordController.cpp.s
+.PHONY : recordController.s
+
+# target to generate assembly for a file
+recordController.cpp.s:
+	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build && $(MAKE) $(MAKESILENT) -f src/recorder/CMakeFiles/Recorder.dir/build.make src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.s
+.PHONY : recordController.cpp.s
+
 recorder.o: recorder.cpp.o
 .PHONY : recorder.o
 
@@ -163,6 +187,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Recorder"
+	@echo "... recordController.o"
+	@echo "... recordController.i"
+	@echo "... recordController.s"
 	@echo "... recorder.o"
 	@echo "... recorder.i"
 	@echo "... recorder.s"

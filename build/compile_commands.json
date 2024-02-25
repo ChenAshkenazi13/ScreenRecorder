@@ -5,14 +5,14 @@
   "file": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.cpp"
 },
 {
+  "directory": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder",
+  "command": "/usr/bin/g++  -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects -g -Wall -std=gnu++14 -o CMakeFiles/Recorder.dir/recordController.cpp.o -c /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.cpp",
+  "file": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.cpp"
+},
+{
   "directory": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/client",
   "command": "/usr/bin/g++  -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects -g -Wall -std=gnu++14 -o CMakeFiles/Client.dir/client.cpp.o -c /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client/client.cpp",
   "file": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client/client.cpp"
-},
-{
-  "directory": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects",
-  "command": "/usr/bin/g++  -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/client -I/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects -g -Wall -std=gnu++14 -o CMakeFiles/Objects.dir/fileStatus.cpp.o -c /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.cpp",
-  "file": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.cpp"
 },
 {
   "directory": "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects",

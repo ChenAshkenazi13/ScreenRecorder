@@ -83,17 +83,33 @@ src/recorder/CMakeFiles/Recorder.dir/recorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Recorder.dir/recorder.cpp.s"
 	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recorder.cpp -o CMakeFiles/Recorder.dir/recorder.cpp.s
 
+src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.o: src/recorder/CMakeFiles/Recorder.dir/flags.make
+src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.o: /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.cpp
+src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.o: src/recorder/CMakeFiles/Recorder.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.o"
+	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.o -MF CMakeFiles/Recorder.dir/recordController.cpp.o.d -o CMakeFiles/Recorder.dir/recordController.cpp.o -c /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.cpp
+
+src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Recorder.dir/recordController.cpp.i"
+	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.cpp > CMakeFiles/Recorder.dir/recordController.cpp.i
+
+src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Recorder.dir/recordController.cpp.s"
+	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/recorder/recordController.cpp -o CMakeFiles/Recorder.dir/recordController.cpp.s
+
 # Object files for target Recorder
 Recorder_OBJECTS = \
-"CMakeFiles/Recorder.dir/recorder.cpp.o"
+"CMakeFiles/Recorder.dir/recorder.cpp.o" \
+"CMakeFiles/Recorder.dir/recordController.cpp.o"
 
 # External object files for target Recorder
 Recorder_EXTERNAL_OBJECTS =
 
 src/recorder/libRecorder.a: src/recorder/CMakeFiles/Recorder.dir/recorder.cpp.o
+src/recorder/libRecorder.a: src/recorder/CMakeFiles/Recorder.dir/recordController.cpp.o
 src/recorder/libRecorder.a: src/recorder/CMakeFiles/Recorder.dir/build.make
 src/recorder/libRecorder.a: src/recorder/CMakeFiles/Recorder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRecorder.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libRecorder.a"
 	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder && $(CMAKE_COMMAND) -P CMakeFiles/Recorder.dir/cmake_clean_target.cmake
 	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/recorder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Recorder.dir/link.txt --verbose=$(VERBOSE)
 

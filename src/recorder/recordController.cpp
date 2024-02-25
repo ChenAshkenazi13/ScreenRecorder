@@ -1,11 +1,13 @@
 #include "recordController.h"
 
-RecordController::RecordController()
-{
+// RecordController::RecordController()
+// {
 
-}
+// }
 
-void RecordController::StartRecording()
+void RecordController::StartRecording(const CircularList<FileData>& list)
 {
-    recorder.RecordScreen();
+    for(int i = 0; i < list.size() + 2; i++){
+        recorder.RecordScreen(std::to_string(i+10), ".mp4", 5);
+    }
 }

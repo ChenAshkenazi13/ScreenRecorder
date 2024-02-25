@@ -10,18 +10,18 @@ enum FileStatus
     FULL,
     SENT
 };
-
-std::ostream &operator<<(std::ostream &os, FileStatus fileStatus)
-{
-    switch (fileStatus)
-    {
-        case EMPTY: os << "EMPTY"; break;
-        case FULL: os << "FULL"; break;
-        case SENT: os << "SENT"; break;
-        default: os << "Unknown";
-    }
-    return os;
-}
+//Do i really need this?
+// std::ostream &operator<<(std::ostream &os, FileStatus fileStatus)
+// {
+//     switch (fileStatus)
+//     {
+//         case EMPTY: os << "EMPTY"; break;
+//         case FULL: os << "FULL"; break;
+//         case SENT: os << "SENT"; break;
+//         default: os << "Unknown";
+//     }
+//     return os;
+// }
 
 class FileData
 {

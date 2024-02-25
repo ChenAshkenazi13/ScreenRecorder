@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/circularList.cpp" "src/objects/CMakeFiles/Objects.dir/circularList.cpp.o" "gcc" "src/objects/CMakeFiles/Objects.dir/circularList.cpp.o.d"
-  "/home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.cpp" "src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.o" "gcc" "src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.o.d"
   )
 
 # Targets to which this target links.

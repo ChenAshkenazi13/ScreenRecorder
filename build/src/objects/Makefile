@@ -154,30 +154,6 @@ circularList.cpp.s:
 	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build && $(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/circularList.cpp.s
 .PHONY : circularList.cpp.s
 
-fileStatus.o: fileStatus.cpp.o
-.PHONY : fileStatus.o
-
-# target to build an object file
-fileStatus.cpp.o:
-	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build && $(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.o
-.PHONY : fileStatus.cpp.o
-
-fileStatus.i: fileStatus.cpp.i
-.PHONY : fileStatus.i
-
-# target to preprocess a source file
-fileStatus.cpp.i:
-	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build && $(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.i
-.PHONY : fileStatus.cpp.i
-
-fileStatus.s: fileStatus.cpp.s
-.PHONY : fileStatus.s
-
-# target to generate assembly for a file
-fileStatus.cpp.s:
-	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build && $(MAKE) $(MAKESILENT) -f src/objects/CMakeFiles/Objects.dir/build.make src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.s
-.PHONY : fileStatus.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -190,9 +166,6 @@ help:
 	@echo "... circularList.o"
 	@echo "... circularList.i"
 	@echo "... circularList.s"
-	@echo "... fileStatus.o"
-	@echo "... fileStatus.i"
-	@echo "... fileStatus.s"
 .PHONY : help
 
 

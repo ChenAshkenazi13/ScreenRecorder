@@ -69,24 +69,10 @@ include src/objects/CMakeFiles/Objects.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/objects/CMakeFiles/Objects.dir/flags.make
 
-src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.o: src/objects/CMakeFiles/Objects.dir/flags.make
-src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.o: /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.cpp
-src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.o: src/objects/CMakeFiles/Objects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.o"
-	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.o -MF CMakeFiles/Objects.dir/fileStatus.cpp.o.d -o CMakeFiles/Objects.dir/fileStatus.cpp.o -c /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.cpp
-
-src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Objects.dir/fileStatus.cpp.i"
-	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.cpp > CMakeFiles/Objects.dir/fileStatus.cpp.i
-
-src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Objects.dir/fileStatus.cpp.s"
-	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/fileStatus.cpp -o CMakeFiles/Objects.dir/fileStatus.cpp.s
-
 src/objects/CMakeFiles/Objects.dir/circularList.cpp.o: src/objects/CMakeFiles/Objects.dir/flags.make
 src/objects/CMakeFiles/Objects.dir/circularList.cpp.o: /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/circularList.cpp
 src/objects/CMakeFiles/Objects.dir/circularList.cpp.o: src/objects/CMakeFiles/Objects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/objects/CMakeFiles/Objects.dir/circularList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/objects/CMakeFiles/Objects.dir/circularList.cpp.o"
 	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/objects/CMakeFiles/Objects.dir/circularList.cpp.o -MF CMakeFiles/Objects.dir/circularList.cpp.o.d -o CMakeFiles/Objects.dir/circularList.cpp.o -c /home/chen/Documents/ProgrammingProjects/ScreenRecorder/src/objects/circularList.cpp
 
 src/objects/CMakeFiles/Objects.dir/circularList.cpp.i: cmake_force
@@ -99,17 +85,15 @@ src/objects/CMakeFiles/Objects.dir/circularList.cpp.s: cmake_force
 
 # Object files for target Objects
 Objects_OBJECTS = \
-"CMakeFiles/Objects.dir/fileStatus.cpp.o" \
 "CMakeFiles/Objects.dir/circularList.cpp.o"
 
 # External object files for target Objects
 Objects_EXTERNAL_OBJECTS =
 
-src/objects/libObjects.a: src/objects/CMakeFiles/Objects.dir/fileStatus.cpp.o
 src/objects/libObjects.a: src/objects/CMakeFiles/Objects.dir/circularList.cpp.o
 src/objects/libObjects.a: src/objects/CMakeFiles/Objects.dir/build.make
 src/objects/libObjects.a: src/objects/CMakeFiles/Objects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libObjects.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libObjects.a"
 	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects && $(CMAKE_COMMAND) -P CMakeFiles/Objects.dir/cmake_clean_target.cmake
 	cd /home/chen/Documents/ProgrammingProjects/ScreenRecorder/build/src/objects && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Objects.dir/link.txt --verbose=$(VERBOSE)
 

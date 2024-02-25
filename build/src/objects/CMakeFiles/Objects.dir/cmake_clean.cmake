@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Objects.dir/circularList.cpp.o"
   "CMakeFiles/Objects.dir/circularList.cpp.o.d"
-  "CMakeFiles/Objects.dir/fileStatus.cpp.o"
-  "CMakeFiles/Objects.dir/fileStatus.cpp.o.d"
   "libObjects.a"
   "libObjects.pdb"
 )
